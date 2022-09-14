@@ -1,0 +1,13 @@
+<a class="list-group-item clearfix" style="cursor:pointer;" [routerLink]="[index]" routerLinkActive="active">
+    
+    <div class=" col-xs-8 pull-left">
+        <h2 class="list-group-item-heading bs">{{recipe.name}}</h2>
+        <p class="list-group-item-text bs">{{recipe.description}}</p>
+    </div>
+    <div class="col-xs-4 pull-right">
+        <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-responsive" style="height:90px; width: 100%;">
+    </div>
+    <!-- <span class=" col-xs-4 pull-right ">
+        <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-responsive" style="max-height: 70px;">
+    </span> -->
+</a>

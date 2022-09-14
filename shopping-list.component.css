@@ -1,0 +1,18 @@
+h3{
+    color: rgb(23, 112, 53);
+    background-color: rgb(241, 217, 217);
+    /* padding-left: 10px; */
+    text-align: center;
+    border: 2px solid rgb(143, 135, 20);
+}
+.card{
+    color: rgb(82, 19, 230);
+    background-color: rgb(241, 217, 217);
+    text-transform: capitalize;
+    
+}
+.btn1{
+    color: brown;
+    float: right;
+    padding: 5px;
+}
